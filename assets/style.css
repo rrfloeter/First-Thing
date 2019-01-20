@@ -1,0 +1,115 @@
+.jumbotron{
+    background-color: #B2D732;
+    padding-bottom: 15px;
+    padding-top: 40px;
+}
+.first{
+    color:#110934;
+    font-size: 50px;
+    font-family: 'Arimo', sans-serif;
+    margin-bottom: 0px;
+}
+.thing{
+    font-size: 80px;
+    color: #FC600A;
+    font-family: 'Anton', sans-serif;
+}
+body{
+    background-color: #F0F7D4;
+}
+#to-do{
+    width: 60%;
+    height: 35px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#add-to-do {
+    width: 25%;
+    padding: 5px 8px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #45a049;
+}
+h3, h4 {
+    color: #4424D6;
+}
+h3{
+    font-size: 35px;
+}
+
+.weatherBorder{
+    border-right: 6px solid green;
+    height: 125px;
+   
+}
+.weatherBorder:last-child {
+    border: none;
+  }
+.toDoContainer{
+    background-color: aliceblue;
+}
+.col-4{
+    border-left:1px solid #ccc;    
+}
+.formContainer{
+    margin-left:30px;
+    margin-right:-30px;
+}
+
+#add-todo{
+    margin-left:375px;
+    margin-top: -100px;
+}
+
+.to-do-item{
+    color: #4424D6;
+    font-size: 24px;
+    margin-left: 60px;
+}
+
+.to-do-item:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.to-do-item:Active{
+    color: red;
+    cursor: pointer;
+}
+#dropup{
+    float: right;
+    margin-right: -42px;
+    position: relative;
+    display: inline-block; 
+}
+#dropupB{
+    background-color: #45a049;
+}
+.dropup-menu{
+    position: absolute;
+    bottom: 50px;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropup-menu a {
+    color: black; 
+    padding: 12px 16px;
+    text-decoration: none;
+  }
+
+#Login-Warning {
+    margin-left: 30px;
+    color: red;
+    background-color: yellow;
+    font-size: 16px;
+}
+
