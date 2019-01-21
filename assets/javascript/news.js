@@ -1,6 +1,6 @@
 var url = "https://api.nytimes.com/svc/topstories/v2/home.json";
 url += '?' + $.param({
-   'api-key': "e6e3a8e67e8a485dbec602712a2de5fe"
+   'api-key': "HxpDvETDPgkbpFkLaYEc22sMX43j54pK"
 });
 
 $.ajax({
